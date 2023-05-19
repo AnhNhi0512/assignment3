@@ -1,0 +1,116 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  * {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: blue;
+  }
+  .cv {
+    background-color: rgb(209, 231, 255);
+    padding: 20px;
+  }
+  .cv-box {
+    gap: 10px;
+    padding: 20px 30px;
+    justify-content: center;
+  }
+  .cv-title {
+    border-bottom: 1px solid #63636385;
+    padding: 10px;
+    font-weight: bold;
+  }
+  /*GOALS*/
+  .goal-box {
+    margin-bottom: 20px;
+  }
+  .cv-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .goal-icon {
+    text-align: center;
+  }
+  .goal-row {
+    display: inline-block;
+    border-bottom: 1px solid #8f8f8f80;
+    padding: 15px;
+  }
+  .goal-row svg {
+    justify-content: center;
+  }
+  .goal-box ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .goal-list {
+    list-style-type: none;
+    gap: 20px;
+  }
+  .goal-list::before {
+    text-align: center;
+  }
+  .goal-text > p {
+    margin: 0px;
+  }
+  /*TEAM*/
+  .team-1 {
+    padding-bottom: 30px;
+  }
+  .team-list {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .team-1 > svg {
+    align-self: center;
+    justify-self: center;
+  }
+  .mb-text > p {
+    margin: 0px;
+    line-height: 1.6;
+  }
+  .team-box {
+    margin-bottom: 20px;
+  }
+  .team-icon {
+    text-align: center;
+  }
+  /*Timeline*/
+
+  .timeline-box {
+    margin-bottom: 20px;
+  }
+  .tl-text {
+    border-bottom: 1px dotted rgba(65, 170, 255, 0.582);
+    padding: 0px;
+  }
+  .tl-text > p {
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .number {
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(159, 130, 238);
+    border: 1px solid rgb(163, 0, 150);
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  .tl-row {
+    padding-top: 20px;
+  }
+  /*Scopes*/
+  .scopes-box {
+    margin-bottom: 20px;
+  }
+
+  /*Primary*/
+
+  .pr-icon {
+    text-align: center;
+  }
+}
